@@ -6,9 +6,6 @@ body {
   color: $primary-color;
 }
   
-#container {
-  margin-top: 45px; 
-}
   
 nav {
   font: 100% Helvetica, sans-serif; 
@@ -20,4 +17,15 @@ a{
     color: $primary-color;
   }
 }
+
+.w-100{
+  width: 100vh!important;
+  margin: auto!important;
+}
+
+#container{
+  margin-top: 100px;
+  margin: 100px;
+}
+
 
