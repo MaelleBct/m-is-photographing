@@ -1,12 +1,23 @@
+$primary-color :#333;
+
+
 body {
   font: 100% Helvetica, sans-serif;
-  color: #333;
+  color: $primary-color;
 }
   
-.container {
-  margin-top: 100px; 
+#container {
+  margin-top: 45px; 
 }
   
 nav {
   font: 100% Helvetica, sans-serif; 
 }
+
+a{
+  color: $primary-color;
+  &:hover{
+    color: $primary-color;
+  }
+}
+
